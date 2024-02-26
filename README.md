@@ -28,6 +28,7 @@
     9.Checkout modal - Checkout component displaying user name and email from API
     10.Order Dashboard -Display products by order for each customer(using API)  
     11.Routing - using Router-Routes and Protected Routes
+    12.Dynamic Title - dynamic titles for each page
     
  **#Project structure**
    The project is arranged into the following folders :
