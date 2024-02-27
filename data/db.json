@@ -632,12 +632,6 @@
   ],
   "users": [
     {
-      "email": "mkamakshi@gmail.com",
-      "password": "$2a$10$uSj22MqoazEd73iuyEDv2eEF7aFh5PpQdv302UL/jqQYp/rYa.5de",
-      "name": "Kamakshi Mahadevan",
-      "id": 1
-    },
-    {
       "email": "mkamakshi@yahoo.com",
       "password": "$2a$10$fv4pKVYLOY713jXf6pL9kuxmDtN1zgoOVglL5VSJlkfeZ6ReZVuZS",
       "name": "Kamakshi Mahadevan",
