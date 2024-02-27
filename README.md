@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+**#CodeBook** 
+    CodeBook is an e-Commerce online book selling application developed using React JS.
+    The code contained in this repository consists of all the frontend that is needed for the application.
+    It is deployed at: https://codebook-km.netlify.app/.
+    Please be patient as the API takes a few minutes to load the very first time.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**#Technologies Used for developing CodeBook**
+   The following technologies have been used :
+     1.React JS
+     2.React-Router
+     3.React-Toastify
+     4.Tailwind CSS
+     5.JSON Server (API backend)
+     6.JSON Server Auth (JWT)
+     7.Local Storage
+     8.Session storage
+     
+**#Features covered in CodeBook**
+    The following features are covered in CodeBook:
+    1.Theme - Light and dark mode 
+    2.Search - Product search using search terms
+    3.Filtering  - Global State management -using Context and Reducers
+    4.Toggle Dropdown -Logged in/logged out user dropdown that toggles on click  
+    5.Ratings display -Book ratings displayed in a separate component based on number
+    6.New user Registeration - Register using API based on rules and token
+    7.User Login - Login using API based on rules and token
+    8.Cart   - Global State management -using Context and Reducers
+    9.Checkout modal - Checkout component displaying user name and email from API
+    10.Order Dashboard -Display products by order for each customer(using API)  
+    11.Routing - using Router-Routes and Protected Routes
+    12.Dynamic Title - dynamic titles for each page
+    
+ **#Project structure**
+   The project is arranged into the following folders :
+   1.components   - Individual components that fit into various pages
+   2.context - The contexts used for filter and cart
+   3.hooks   - Custom hooks like useTitle
+   4.pages - Various pages displayed in the application
+   5.reducers - Reducers needed for filter and cart contexts
+   6.routes - The routing of URL done for various components
+   7.services - Folder that holds often repeated API Fetch code
 
-## Available Scripts
+  **#Software versions**
+    CodeBook was developed on the following software versions:
+    React JS - 18.2.0
+    Reatc Router - 6.22.0
+    React Toastify - 10.0.4
+    JSON server - 0.17.4
+    JSON Server Auth-2.1.0
+    Tailwind CSS -3.4.1
+    Please refer to package.json.
+    
+   **#CodeBook API backend**
+    The backend code for API for CodeBook is available at: https://github.com/mkamakshi/codebook-mock-server2
+       
+   
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ 
